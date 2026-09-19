@@ -1,9 +1,8 @@
 {
-  "buildCommand": null,
-  "outputDirectory": "dist",
+  "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/((?!_expo|assets|.*\\..*).*)",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
